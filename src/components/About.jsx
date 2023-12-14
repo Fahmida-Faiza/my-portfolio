@@ -1,15 +1,20 @@
 
 const About = () => {
     return (
-        <div className="hero min-h-screen bg-base-200">
-            <div className="hero-content flex-col lg:flex-row">
-                <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-                <div>
-                    <h1 className="text-5xl font-bold">About Me</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+        <div className="hero min-h-fit bg-base-200">
+            <div className="hero-content text-center flex-col lg:flex-row gap-6">
+                {/* <div className="hero min-h-screen " style={{ backgroundImage: 'url("./banner_3.jpg")' }}></div> */}
+                <img src="./banner_2.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+                <div className="relative">
+                    <h1 className="text-5xl font-bold absolute -ml-10 -mt-20 text-white">About Me</h1>
+                    <p className="py-6 text-xl text-justify">“Creative, self-starting, and ambitious Front-End Developer with 10 years of experience, in website development, for both Responsive e-Commerce and portfolio websites plus Mobile applications in fast-paced, collaborative environments. Highly Experienced in HTML/CSS/JavaScript/JQuery and working knowledge of Photoshop.</p>
+                    {/* <button className="btn btn-primary">Show More</button> */}
                 </div>
             </div>
+         
+          
+          
+
         </div>
     );
 };
