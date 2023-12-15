@@ -2,16 +2,16 @@ import { Link } from "react-router-dom";
 
 const Project = () => {
     return (
-        <div>
-            <h3>Project page</h3>
-            <div className="flex gap-5">
-                <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="my-10">
+            <h3 className="text-center font-extrabold text-5xl my-20 ">Projects </h3>
+            <div className="flex gap-5 flex-col md:flex-row">
+                <div className="card w-80 lg:w-96 bg-base-100 shadow-xl border-2 border-blue-600">
                     <figure><img src="./project1.png" alt="career fair" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Career Fair</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-start">
-                            <Link to="https://react-donation-campain.vercel.app/" target="_blank"><button className="btn btn-primary">Live Link</button></Link>
+                            <Link to="https://react-donation-campain.vercel.app/" target="_blank"><button className="btn btn-secondary">Live Link</button></Link>
                             <Link to="https://github.com/Fahmida-Faiza/React-Donation-campain-assingment" target="_blank"><button className="btn btn-primary">Github Link</button></Link>
                             {/* You can open the modal using document.getElementById('ID').showModal() method */}
                             <button className="btn btn-primary" onClick={() => document.getElementById('my_modal_3').showModal()}>Details</button>
@@ -41,13 +41,13 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-80 lg:w-96 bg-base-100 shadow-xl border-2 border-blue-600 ">
                     <figure><img src="./project3.png" alt="weather api" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Weather API</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-start">
-                            <Link to="https://weather-api-nine-olive.vercel.app/" target="_blank"><button className="btn btn-primary">Live Link</button></Link>
+                            <Link to="https://weather-api-nine-olive.vercel.app/" target="_blank"><button className="btn btn-secondary">Live Link</button></Link>
                             <Link to="https://github.com/Fahmida-Faiza/weather-api" target="_blank"><button className="btn btn-primary">Github Link</button></Link>
                             <button className="btn btn-primary" onClick={() => document.getElementById('my_modal_2').showModal()}>Details</button>
                             <dialog id="my_modal_2" className="modal">
@@ -76,13 +76,13 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-80 lg:w-96 bg-base-100 shadow-xl border-2 border-blue-600">
                     <figure><img src="./project2.png" alt="Donation Campain" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Donation Campain</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-start">
-                            <Link to="https://react-donation-campain.vercel.app/" target="_blank"><button className="btn btn-primary">Live Link</button></Link>
+                            <Link to="https://react-donation-campain.vercel.app/" target="_blank"><button className="btn btn-secondary">Live Link</button></Link>
                             <Link to="https://github.com/Fahmida-Faiza/React-Donation-campain-assingment" target="_blank"><button className="btn btn-primary">Github Link</button></Link>
                             <button className="btn btn-primary" onClick={() => document.getElementById('my_modal_1').showModal()}>Details</button>
                             <dialog id="my_modal_1" className="modal">

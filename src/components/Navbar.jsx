@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { IoMdDownload } from "react-icons/io";
+
 
 const Navbar = () => {
 
@@ -25,16 +27,6 @@ const Navbar = () => {
         // add custom data-theme attribute to html tag required to update theme using DaisyUI
         document.querySelector("html").setAttribute("data-theme", localTheme);
     }, [theme]);
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -78,7 +70,7 @@ const Navbar = () => {
             >Contact</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100 sticky top-0 z-50">
+        <div className="navbar text-white sticky top-0 z-50 bg-black rounded-xl">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -116,7 +108,8 @@ const Navbar = () => {
      
      
                     {/*  */}
-                <a className="btn btn-secondary text-lg ">Download Resume</a>
+                <a className="btn btn-secondary text-lg "><IoMdDownload className="text-xl"/>
+Download Resume</a>
 
 
 

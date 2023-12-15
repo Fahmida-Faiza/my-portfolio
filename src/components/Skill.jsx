@@ -2,7 +2,7 @@
 const Skill = () => {
     return (
         <div>
-            <h3 className=" text-center font-extrabold text-5xl py-7"> My Skills </h3>
+            <h3 className=" text-center font-extrabold text-5xl my-10"> My Skills </h3>
             <div className="grid grid-cols-4 gap-4 rounded-full">
                <div><img className="w-1/2" src="css.png" alt="" /></div>
                <div><img className="w-1/2" src="firebase.png" alt="" /></div>
