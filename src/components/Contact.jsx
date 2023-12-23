@@ -5,11 +5,9 @@ const Contact = () => {
             <div className="hero min-h-screen " style={{ backgroundImage: 'url("./banner_4.jpg")' }}></div>
           
             <div className="hero-content flex-col lg:flex-row-reverse">
-                
-               
-
+            
                 <div className="text-center lg:text-left">
-                    <h1 className="text-5xl font-bold text-black">Contact now!</h1>
+                    <h1 className="text-5xl font-bold text-white md:text-black">Contact now!</h1>
                   
                 </div>
                 <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

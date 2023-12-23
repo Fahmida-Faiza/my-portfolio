@@ -23,18 +23,14 @@ const About = () => {
         //                 </div>
         //             </div>
         //     </div>
-            
-        //     </div>
-         
-          
-          
 
+        //     </div>
         // </div>
 
-        <div className="hero min-h-screen bg-base-200 w-[300px]">
-            <div className=" flex-col lg:flex-row">
-                <img src="./banner_2.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-                <div >
+        <div className="hero min-h-screen bg-base-200">
+            <div className="hero-content flex-col lg:flex-row">
+                <img src="./banner_2.jpg" className="w-80 lg:w-96 rounded-lg shadow-2xl" />
+                <div>
                     <h1 className="text-5xl font-bold text-start ">About Me</h1>
                     <p className="py-6 text-xl text-justify">“Creative, self-starting, and ambitious Front-End Developer with 10 years of experience, in website development, for both Responsive e-Commerce and portfolio websites plus Mobile applications in fast-paced, collaborative environments. Highly Experienced in HTML/CSS/JavaScript/JQuery and working knowledge of Photoshop.</p>
                     {/* <button className="btn btn-primary">Show More</button> */}
@@ -47,6 +43,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+
+
     );
 };
 

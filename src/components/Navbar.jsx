@@ -80,7 +80,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-lg">Fahmida Faiza</a>
+                <a className="btn btn-ghost text-lg hidden md:visible">Fahmida Faiza</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-lg">
@@ -108,8 +108,7 @@ const Navbar = () => {
      
      
                     {/*  */}
-                <a className="btn btn-secondary text-lg "><IoMdDownload className="text-xl"/>
-Download Resume</a>
+                <a href="./Fahmida-Faiza-Web-Resume.pdf" className="btn btn-secondary text-sm lg:text-lg" download><IoMdDownload />Download Resume</a>
 
 
 
